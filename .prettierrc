@@ -1,0 +1,7 @@
+{
+  "javascript.preferences.quoteStyle": "single",
+  "singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jsxSingleQuote": true,
+  "printWidth": 90
+}
