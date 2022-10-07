@@ -11,7 +11,10 @@ const Proizvodi = () => {
       <h1>Proizvodi</h1>
       <div className='proizvodi'>
         {proizvodi.map((proizvod) => (
-          <div className='proizvod' onClick={() => navigate(`${proizvod.ime}`)}>
+          <div
+            className='proizvod'
+            onClick={() => navigate(`/proizvodi/${proizvod.ime}`)}
+          >
             <div className='slika-proizvoda'>
               <img src={proizvod.slika} />
             </div>
